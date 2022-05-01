@@ -8,9 +8,7 @@ type Props = {
 
 export function Container({ children, className }: Props) {
   return (
-    <div
-      className={`w-screen bg-none min-h-screen flex flex-col items-center ${className}`}
-    >
+    <div className={`w-screen bg-none flex flex-col items-center ${className}`}>
       {children}
     </div>
   )
